@@ -1,0 +1,109 @@
+/*
+    Document   : music1.css
+    Created on : 2015-03-24 06:17 PM
+    Author     : Oldubai
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+.navbar > * {
+    display: inline-block;
+    padding: 10px;
+    background: #F5BCA9 
+    
+}
+
+
+.hoverBox{
+    background: #F6D8CE
+    
+    transition: 2s all ease;
+}
+.hoverBox:hover{
+    background-color: #CEF6F5;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: none; /* no underline */
+}
+
+
+html, body {
+  
+ height: 100%;
+}
+
+* {
+  
+  box-sizing: border-box;53
+}
+
+body {
+  
+	font-family: arial;
+	background-size: cover;
+    background: #F5BCA9;
+	margin: 0;
+	
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+p{
+  font-weight: lighter;
+  width: 100%;
+  font-size: 18px;
+}
+
+header {
+  font-family:Sans-serif;
+  position: relative;
+  background-color: #F5BCA9;
+  color: black;
+  font-size: 40px;
+  height: 500px;
+  padding: 20px;
+  text-align: left;
+}
+
+header p {
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+}
+
+#mainbody {
+  z-index: 1;
+  position: relative;
+  float: left;
+  padding: 0px 100px;
+  margin-top: -150px;
+  background-color: #F5BCA9;
+}
+section {
+  position: relative;
+  float: left;
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+  border:solid;
+}
+
+footer {
+  font-family:Sans-serif;
+  font-size:20px;
+  z-index: 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #F5BCA9;
+  padding: 120px;
+  color: black;
+  text-align: center;
+}

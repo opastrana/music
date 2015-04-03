@@ -1,0 +1,118 @@
+/*
+    Document   : music1.css
+    Created on : 2015-03-24 06:17 PM
+    Author     : Oldubai
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+.navbar > * {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+.hoverBox{
+    border-style: solid; 
+    border-width: 5px;
+    background: #F6D8CE
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+.hoverBox:hover{
+    background-color: #CEF6F5;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: none; /* no underline */
+}
+
+
+html, body {
+  
+ height: 100%;
+}
+
+* {
+  
+  box-sizing: border-box;
+}
+
+body {
+  
+	font-family: arial;
+	background-size: cover;
+	background: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC-RXa522n3m16mlWoNXiaBHDopTm9Dg-9K4A-c4EqmN6UKXVWhQ;
+	
+	margin: 0;
+	
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+p{
+  font-weight: lighter;
+  width: 100%;
+  font-size: 18px;
+}
+
+header {
+  font-family:Sans-serif;
+  position: relative;
+  background-color: #F5BCA9;
+  color: black;
+  font-size: 40px;
+  height: 500px;
+  padding: 20px;
+  text-align: left;
+}
+
+header p {
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+}
+
+#mainbody {
+  z-index: 1;
+  position: relative;
+  float: left;
+  padding: 0px 100px;
+  margin-top: -150px;
+  background-color: #F5BCA9;
+}
+section {
+  position: relative;
+  float: left;
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+}
+
+footer {
+  font-family:Sans-serif;
+  font-size:20px;
+  z-index: 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #F5BCA9;
+  margin-top: -100px;
+  padding: 150px;
+  color: black;
+	text-align: center;
+}
+
+#about_me{
+ font-family:Monospace;
+ background-color: #FFFFFF;
+}
